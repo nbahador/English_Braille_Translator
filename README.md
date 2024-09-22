@@ -34,7 +34,7 @@ Returns: Translated text in the opposite format.
 
 ## Deployment
 ### Deployed Web Application on Hugging Face Spaces
-[Link to Web App](https://huggingface.co/spaces/nooshinbah/Braille_Translator/blob/main/app.py)
+[Link to Web App](https://huggingface.co/spaces/nooshinbah/Braille_Translator)
 ### Google Colab Notebook
 [Link to Notebook](https://colab.research.google.com/drive/1W0CYFKUmurPZXcaNftj7qMP0zjvaQpsB?authuser=0#scrollTo=rzCg4XTTntuZ)
 
