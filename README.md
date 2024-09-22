@@ -7,6 +7,78 @@ This program takes a string input and transforms it into a specific output forma
 - **Braille to English**: Converts Braille patterns back into readable English text.
 - **Handles Capitalization and Punctuation**: Supports translation of capital letters and various punctuation marks.
 
+## Deployment
+### Deployed Web Application on Hugging Face Spaces
+[Link to Web App](https://huggingface.co/spaces/nooshinbah/Braille_Translator)
+### Google Colab Notebook
+[Link to Notebook](https://colab.research.google.com/drive/1W0CYFKUmurPZXcaNftj7qMP0zjvaQpsB?authuser=0#scrollTo=rzCg4XTTntuZ)
+
+## Braille Representation
+
+The following is the mapping of characters to their corresponding Braille representations:
+
+| Character | Braille   |
+|-----------|-----------|
+| 1         | O.....    |
+| 2         | O.O...    |
+| 3         | OO....    |
+| 4         | OO.O..    |
+| 5         | O..O..    |
+| 6         | OOO...    |
+| 7         | OOOO..    |
+| 8         | O.OO..    |
+| 9         | .OO...    |
+| 0         | .OOO..    |
+| a         | O.....    |
+| b         | O.O...    |
+| c         | OO....    |
+| d         | OO.O..    |
+| e         | O..O..    |
+| f         | OOO...    |
+| g         | OOOO..    |
+| h         | O.OO..    |
+| i         | .OO...    |
+| j         | .OOO..    |
+| k         | O...O.    |
+| l         | O.O.O.    |
+| m         | OO..O.    |
+| n         | OO.OO.    |
+| o         | O..OO.    |
+| p         | OOO.O.    |
+| q         | OOOOO.    |
+| r         | O.OOO.    |
+| s         | .OO.O.    |
+| t         | .OOOO.    |
+| u         | O...OO    |
+| v         | O.O.OO    |
+| w         | .OOO.O    |
+| x         | OO..OO    |
+| y         | OO.OOO    |
+| z         | O..OOO    |
+| (space)   | ......    |
+| .         | ..OO.O    |
+| ,         | ..O...    |
+| ?         | ..O.OO    |
+| :         | ..OO..    |
+| ;         | ..O.O.    |
+| -         | ....OO    |
+| /         | .O..O.    |
+| <         | .OO..O    |
+| >         | O.OOOO    |
+| (         | O.O..O    |
+| )         | .O.OO.    |
+| capital   | .....O    |
+| decimal   | .O...O    |
+| number    | .O.OOO    |
+
+## Examples
+
+| **Input**                                                | **Output**                                                                 |
+|----------------------------------------------------------|----------------------------------------------------------------------------|
+| `Hello world`                                            | `.....OO.OO..O..O..O.O.O.O.O.O.O..OO........OOO.OO..OO.O.OOO.O.O.O.OO.O..` |
+| `42`                                                     | `.O.OOOOO.O..O.O...`                                                       |
+| `.....OO.....O.O...OO...........O.OOOO.....O.O...OO....` | `Abc 123`                                                                  |
+
 ## Usage
 To use the Braille Translator, you need to provide an input text via the command line. The program will determine whether the input is in English or Braille and perform the appropriate translation.
 
@@ -31,20 +103,6 @@ Returns: English representation of the Braille text.
 **Determines if the input is in Braille or English and performs the appropriate translation.**
 Parameters: text (str) - The text to be translated.
 Returns: Translated text in the opposite format.
-
-## Deployment
-### Deployed Web Application on Hugging Face Spaces
-[Link to Web App](https://huggingface.co/spaces/nooshinbah/Braille_Translator)
-### Google Colab Notebook
-[Link to Notebook](https://colab.research.google.com/drive/1W0CYFKUmurPZXcaNftj7qMP0zjvaQpsB?authuser=0#scrollTo=rzCg4XTTntuZ)
-
-## Examples
-
-| **Input**                                                | **Output**                                                                 |
-|----------------------------------------------------------|----------------------------------------------------------------------------|
-| `Hello world`                                            | `.....OO.OO..O..O..O.O.O.O.O.O.O..OO........OOO.OO..OO.O.OOO.O.O.O.OO.O..` |
-| `42`                                                     | `.O.OOOOO.O..O.O...`                                                       |
-| `.....OO.....O.O...OO...........O.OOOO.....O.O...OO....` | `Abc 123`                                                                  |
 
 ## Author
 Created by **Nooshin Bahador**. For any questions or issues, please contact `nooshin.bah@gmail.com`.
